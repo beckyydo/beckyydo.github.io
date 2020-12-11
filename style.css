@@ -1,0 +1,44 @@
+.box-align{
+    text-align: center;
+    background-color: white;
+}
+.nav-background {
+    background-color: powderblue;
+}
+.icon-circle 
+{   
+    background-color: powderblue;
+    border-style: solid;
+    border-color: black;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px; 
+  }
+.myclass {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.background-blue {
+    background-color: powderblue;
+    padding: 15px;
+}
+.box-margin {
+    margin-top: 25px;
+}
+.navbar-brand{
+    padding: 5px;
+    color: powderblue;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: white;
+}
+.house-icon {
+    width:15%;
+    margin-left: 10px;
+}
+.x {
+    padding:0px;
+    margin:0px;
+}
