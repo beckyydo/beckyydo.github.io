@@ -7,7 +7,7 @@
 }
 .background-blue {
     background-color: powderblue;
-    padding: 15px;
+    padding: 25px;
 }
 .box-margin {
     margin-top: 25px;
@@ -27,7 +27,11 @@
     width: 30%;
 }
 .no-padding{
-    padding: 0 !important;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 70px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
     margin: 0 !important;
     width:100%;
 }
@@ -38,6 +42,23 @@
 .avatar{
     width:50%;
 }
+.footer-bar{
+    background-color: powderblue;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.footer {
+    position:fixed;
+    bottom:0;
+}
+hr{
+    width:90%
+}
+.square-auto{
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 70px;
+}
 
 
 /* Text-Size Responsive */
@@ -46,11 +67,16 @@ html {
 }
 @media (max-width: 990px) {
     html {
-          font-size: 12px;
+          font-size: 15px;
         }
-    }    
+    }
+    .my-auto{
+        margin-top: auto;
+        margin-bottom: auto;
+        padding: 80px;
+    }
 @media (max-width: 430px) {
     html {
-          font-size: 11px;
+          font-size: 14px;
         }
     }
