@@ -1,16 +1,6 @@
-.box-align{
-    text-align: center;
-    background-color: white;
-}
+/*** Navigation Bar ***/
 .nav-background {
     background-color: powderblue;
-}
-.background-blue {
-    background-color: powderblue;
-    padding: 25px;
-}
-.box-margin {
-    margin-top: 25px;
 }
 .navbar-brand{
     padding: 5px;
@@ -19,17 +9,32 @@
     font-size: 40px;
     background-color: white;
 }
-.house-icon {
+.home-icon {
     width:15%;
     margin-left: 10px;
+}
+
+/*** Body ***/
+.cont-align{
+    text-align: center;
+    background-color: white;
+}
+.background-blue {
+    background-color: powderblue;
+    padding: 25px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.box-margin {
+    margin-top: 25px;
 }
 .icon{
     width: 30%;
 }
-.no-padding{
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 70px;
+.climb-no-padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 0 !important;
     padding-right: 0 !important;
     margin: 0 !important;
@@ -42,39 +47,34 @@
 .avatar{
     width:50%;
 }
+hr{
+    width:95%
+}
+
+/*** Footer ***/
 .footer-bar{
     background-color: powderblue;
     padding-top: 1px;
     padding-bottom: 1px;
 }
-.footer {
-    position:fixed;
-    bottom:0;
-}
-hr{
-    width:90%
-}
-.square-auto{
-    margin-top: auto;
-    margin-bottom: auto;
-    padding: 70px;
-}
 
-
-/* Text-Size Responsive */
+/*** Text-Size Responsive ***/
 html {
     font-size: 1rem;
+}
+@media (max-width: 1200px) {
+    .background-blue {
+        padding: 50px;
+    }
 }
 @media (max-width: 990px) {
     html {
           font-size: 15px;
         }
+    .background-blue {
+        padding: 90px;
     }
-    .my-auto{
-        margin-top: auto;
-        margin-bottom: auto;
-        padding: 80px;
-    }
+}
 @media (max-width: 430px) {
     html {
           font-size: 14px;
