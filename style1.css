@@ -1,0 +1,118 @@
+/*** Navigation Bar ***/
+.nav-background {
+    background-color: white;
+}
+.navbar-brand{
+    padding: 5px;
+    color: powderblue;
+    font-weight: bold;
+    font-size: 40px;
+    background-color: white;
+}
+.home-icon {
+    width:15%;
+    margin-left: 10px;
+}
+
+/*** Body ***/
+.cont-align{
+    text-align: center;
+    background-color: blue;
+}
+.background-blue {
+    background-color: powderblue;
+    padding: 25px;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.box-margin {
+    margin-top: 25px;
+}
+.icon{
+    width: 30%;
+}
+.climb-no-padding{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 !important;
+    width:100%;
+}
+.square-padding{
+    display: block;
+    margin: 0px auto;
+}
+.avatar{
+    width:50%;
+}
+hr{
+    width:95%
+}
+
+/*** Reciepe Carousel ***/
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
+
+/*** Footer ***/
+.footer-bar{
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+/*** Text-Size Responsive ***/
+html {
+    font-size: 1rem;
+}
+@media (max-width: 1200px) {
+    .background-blue {
+        padding: 50px;
+    }
+}
+@media (max-width: 990px) {
+    html {
+          font-size: 15px;
+        }
+    .background-blue {
+        padding: 90px;
+    }
+}
+@media (max-width: 430px) {
+    html {
+          font-size: 14px;
+        }
+    }
