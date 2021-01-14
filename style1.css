@@ -1,6 +1,7 @@
 /*** Navigation Bar ***/
 .nav-background {
     background-color: white;
+    border-color:gold;
 }
 .navbar-brand{
     padding: 5px;
@@ -86,6 +87,20 @@ hr{
   transform: translateX(0);
 }
 
+/*** Background Image***/
+body, html {
+    height: 100%;
+  }
+  .bg {
+    /* The image used */
+    background-image: url("images/Marble.png");
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 /*** Footer ***/
 .footer-bar{
