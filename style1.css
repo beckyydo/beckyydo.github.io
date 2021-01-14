@@ -93,9 +93,9 @@ body, html {
   }
   .bg {
     /* The image used */
-    background-image: url("images/Marble.png");
+    background-image: url("images/Minimal_Dessert.jpg");
     /* Full height */
-    height: 100%;
+    height: 90%;
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
