@@ -8,18 +8,16 @@
     
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="reset.css">
-        <link rel="stylesheet" href="style1.css">
+        <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://d3js.org/d3.v5.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/5.0.0/math.min.js"></script>
       </head>
 
-<body style="background-color: lightgrey;">
+<body style="background-color: white;">
     <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-md nav-background">
+    <nav class="navbar navbar-expand-md border-bottom border-dark">
         <a href="index.html"><img src="images/black-house-icon.png" class = "home-icon" alt= "main-page icon"></a>
-        Website Under Construction <br>
-        Coming Soon! :)
         <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -41,70 +39,73 @@
             </ul>
         </div>
     </nav>
+    <!--Baking Banner-->
+    <div>
+        <img class="banner-bg" src="images/Baking/Banner/Banner_Baking_01.png" style = "width:100%">
+    </div>
+
     <!--Recipe Carousel-->
-    <div class="container text-center my-3 bg">
-      <br>
-      <h1>Baking</h1><hr>
-      <h2>Featured Baked Goods</h2>
-      <div class="row mx-auto my-auto">
-          <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
-              <div class="carousel-inner w-100" role="listbox">
-                  <div class="carousel-item active">
-                      <div class="col-md-4">
-                          <div class="card card-body">
-                              <a href = "#"><img class="img-fluid" src="images/Baking/Macaron/Macaron_01 (2).jpeg"></a>
-                              <h5>Winnie Macaron </h5>
-                              Prep Time: 2 hours <br>
-                              Cook Time: 15 minutes <br>
+    <!--<div class="container text-center my-3 bg">-->
+    <div class="container text-center my-3">
+        <!--Featured Banner-->
+        <img src = "images/Baking/Banner/Featured.PNG" style = "width:20%"><br><br>
+        <div class="row mx-auto my-auto">
+            <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+                <div class="carousel-inner w-100" role="listbox">
+                    <div class="carousel-item active">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <a href = "#"><img class="img-fluid" src="images/Baking/Macaron/Macaron_01 (2).jpeg"></a>
+                                <h5>Winnie Macaron </h5>
+                                Prep Time: 2 hours <br>
+                                Cook Time: 15 minutes <br>
+                                Main Ingredients<br>
+                                Almond Flour, Icing Sugar, Egg Whites, Gel Food Colouring
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <a href = "#"><img class="img-fluid" src="images/Baking/Mooncake/Mooncake_01.jpg"></a>
+                                <h5>Taro Mooncake </h5>
+                                Prep Time: 2 hours <br>
+                                Cook Time: 30 minutes <br>
+                                Main Ingredients<br>
+                                Moochi Flour, Taro (Purple Yam), Rice Flour, Starch
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <a href = "#"><img class="img-fluid" src="images/Baking/Macaron/Macaron_02 (1).jpg"></a>
+                                <h5>Winter Bear Macaron</h5>
+                                Prep Time: 2 hours <br>
+                                Cook Time: 15 minutes <br>
                               Main Ingredients<br>
                               Almond Flour, Icing Sugar, Egg Whites, Gel Food Colouring
                           </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="card card-body">
-                            <a href = "#"><img class="img-fluid" src="images/Baking/Mooncake/Mooncake_01.jpg"></a>
-                            <h5>Taro Mooncake </h5>
-                            Prep Time: 2 hours <br>
-                            Cook Time: 30 minutes <br>
-                            Main Ingredients<br>
-                            Moochi Flour, Taro (Purple Yam), Rice Flour, Starch
                         </div>
                     </div>
+                    <div class="carousel-item">
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <a href = "#"><img class="img-fluid" src="images/Baking/Macaron/Macaron_03 (1).jpg"></a>
+                                <h5>Piggie Macaron</h5>
+                                Prep Time: 2 hours <br>
+                                Cook Time: 15 minutes <br>
+                                Main Ingredients<br>
+                                Almond Flour, Icing Sugar, Egg Whites, Gel Food Colouring
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-body">
+                                <h5>Winter Bear Macaron </h5>
+                                Prep Time: 2 hours <br>
+                                Cook Time: 15 minutes <br>
+                                Main Ingredients<br>
+                                Almond Flour, Icing Sugar, Egg Whites, Gel Food Colouring
+                            </div>
+                        </div>
                     <div class="col-md-4">
                         <div class="card card-body">
-                            <a href = "#"><img class="img-fluid" src="images/Baking/Macaron/Macaron_02 (1).jpg"></a>
-                            <h5>Winter Bear Macaron</h5>
-                            Prep Time: 2 hours <br>
-                            Cook Time: 15 minutes <br>
-                            Main Ingredients<br>
-                            Almond Flour, Icing Sugar, Egg Whites, Gel Food Colouring
-                        </div>
-                    </div>
-                  </div>
-                  <div class="carousel-item">
-                      <div class="col-md-4">
-                          <div class="card card-body">
-                              <a href = "#"><img class="img-fluid" src="images/Baking/Macaron/Macaron_03 (1).jpg"></a>
-                              <h5>Piggie Macaron</h5>
-                              Prep Time: 2 hours <br>
-                              Cook Time: 15 minutes <br>
-                              Main Ingredients<br>
-                              Almond Flour, Icing Sugar, Egg Whites, Gel Food Colouring
-                          </div>
-                      </div>
-                      <div class="col-md-4">
-                        <div class="card card-body">
-                            <a href = "#"><img class="img-fluid" src="images/Baking/Mooncake/Mooncake_01.jpg"></a>
-                            <h5>Winter Bear Macaron </h5>
-                            Prep Time: 2 hours <br>
-                            Cook Time: 15 minutes <br>
-                            Main Ingredients<br>
-                            Almond Flour, Icing Sugar, Egg Whites, Gel Food Colouring
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <a href = "#"><img class="img-fluid" src="images/Baking/Mooncake/Mooncake_01.jpg"></a>
                             <h5>Winter Bear Macaron </h5>
                             Prep Time: 2 hours <br>
                             Cook Time: 15 minutes <br>
@@ -125,10 +126,11 @@
           </div>
       </div>
   </div>
+  <br><br>
 
 </body>
 
-<footer class="footer-bar">
+<footer style = "background-color: white; padding: 20px;">
     <span class="align-middle">
         <div class="d-flex">
             <div>
@@ -143,7 +145,6 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="static/app.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
