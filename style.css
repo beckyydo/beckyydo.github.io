@@ -49,11 +49,7 @@
 hr{
     width:95%
 }
-.climb-bg{
-    background-image: url("images/Climbing/Green_Blue_Forest_Geo.jpg");
-    width:50%;
-    height:50%;
-}
+
 
 /*** Reciepe Carousel ***/
 @media (max-width: 768px) {
