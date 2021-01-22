@@ -27,11 +27,23 @@
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="aboutme.html">About Me</a>
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link text-dark" href="work.html">Projects</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="work.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Work
+                        </a>
+                        <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item " href="maxtemp.html">Resume</a>
+                            <a class="dropdown-item" href="humidity.html">Projects</a>
+                        </div>
                 </li>
-                <li class="nav-item ">
-                    <a class="nav-link text-dark" href="baking.html">Baking</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="work.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Baking
+                        </a>
+                        <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item " href="maxtemp.html">Gallery</a>
+                            <a class="dropdown-item" href="humidity.html">Reciepe</a>
+                        </div>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link text-dark" href="climbing.html">Climbing</a>
@@ -39,14 +51,11 @@
             </ul>
         </div>
     </nav>
-    <div class = "container">
-        <div class = "row box-margin">
-            <div class = "col-md-12 box-align">
-                <img class = 'icon' src ="images/Icon/ProjectIcon_1.png" alt = "Baking Roller Icon">
-                <h3>Projects</h3>
-                <h3>Resume</h3>
-            </div>
-        </div>
+    <div class = "container cont-align">
+        <div>
+            <a href="resume.html"><img src="images/Icon/ResumeIcon_1.png" alt = "Resume Icon" style = "width: 20%"></a>Resume
+            <a href="#"><img src="images/Icon/CodeIcon_1.png" alt = "Code Icon" style = "width: 20%"></a>Projects
+        </div> 
 
     </div>
 
