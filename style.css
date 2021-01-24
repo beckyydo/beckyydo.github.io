@@ -20,11 +20,12 @@
 }
 .background-blue {
     background-color: powderblue;
-    padding: 25px;
+    padding: 40px;
     height: auto;
     margin-top: auto;
     margin-bottom: auto;
 }
+/***Body-Container***/
 .box-margin {
     margin-top: 35px;
     margin-bottom: 35px;
@@ -113,10 +114,22 @@ html {
         padding: 90px;
     }
 }
-@media (max-width: 430px) {
+@media (max-width: 480px) {
+    .background-blue{
+        padding:35px;
+    }
     html {
           font-size: 14px;
         }
+    .white {
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .vertical {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+    }
     }
  
 /* Advance 1 Slide At A Time */
