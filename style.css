@@ -20,7 +20,7 @@
 }
 .background-blue {
     background-color: powderblue;
-    padding: 40px;
+    padding: 55px;
     height: auto;
     margin-top: auto;
     margin-bottom: auto;
@@ -53,7 +53,7 @@
 hr{
     width:95%
 }
-.white {
+.small-white {
     margin-top: 20px;
     margin-bottom:20px;
     border: 3px solid powderblue;
@@ -94,7 +94,7 @@ html {
 }
 @media (max-width: 1200px) {
     .background-blue {
-        padding: 60px;
+        padding: 80px;
     }
 }
 @media (max-width: 990px) {
@@ -113,14 +113,17 @@ html {
     .carousel-inner .carousel-item > div:first-child {
         display: block;
     }
-    .white {
-        margin-top:25px;
-        margin-bottom:25px;
+    .small-white {
+        margin-top: 20px;
+        margin-bottom:20px;
+        border: 3px solid powderblue;
+        border-radius: 15px;  
     }
     #bakingbanner{
         height: 510px;
         margin-top: 110px;
     }
+
 }
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
