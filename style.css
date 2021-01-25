@@ -52,23 +52,6 @@ hr{
     width:95%
 }
 
-
-/*** Reciepe Carousel ***/
-@media (max-width: 768px) {
-    .carousel-inner .carousel-item > div {
-        display: none;
-    }
-    .carousel-inner .carousel-item > div:first-child {
-        display: block;
-    }
-}
-
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
-    display: flex;
-}
-
 /*** Background Image***/
 body, html {
     height: 100%;
@@ -97,13 +80,14 @@ body, html {
   z-index: 0;
 }
 
+/**************************************MEDIA (SCREEN SIZE)**************************************/
 /*** Text-Size Responsive ***/
 html {
     font-size: 1rem;
 }
 @media (max-width: 1200px) {
     .background-blue {
-        padding: 50px;
+        padding: 60px;
     }
 }
 @media (max-width: 990px) {
@@ -111,27 +95,28 @@ html {
           font-size: 15px;
         }
     .background-blue {
-        padding: 90px;
+        padding: 100px;
     }
 }
-@media (max-width: 480px) {
-    .background-blue{
-        padding:35px;
+/*** Reciepe Carousel ***/
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
     }
-    html {
-          font-size: 14px;
-        }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
     .white {
-        margin-top:20px;
-        margin-bottom:20px;
+        margin-top:15px;
+        margin-bottom:15px;
     }
-    .vertical {
-        display: inline-block;
-        vertical-align: middle;
-        float: none;
-    }
-    }
- 
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
 /* Advance 1 Slide At A Time */
 @media (min-width: 768px) {
     
@@ -150,4 +135,23 @@ html {
 .carousel-inner .carousel-item-left{ 
   transform: translateX(0);
 }
+@media (max-width: 480px) {
+    .background-blue{
+        padding:35px;
+    }
+    html {
+          font-size: 14px;
+        }
+    .white {
+        margin-top:25px;
+        margin-bottom:25px;
+    }
+    .vertical {
+        display: inline-block;
+        vertical-align: middle;
+        float: none;
+    }
+}
+ 
+
 
