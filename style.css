@@ -123,6 +123,12 @@ html {
         height: 510px;
         margin-top: 110px;
     }
+    #baking-square1{
+        width:350px;
+    }
+    #baking-square2{
+        width:340px;
+    }
 
 }
 .carousel-inner .carousel-item.active,
