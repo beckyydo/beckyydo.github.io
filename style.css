@@ -25,6 +25,7 @@
     margin-top: auto;
     margin-bottom: auto;
 }
+
 /***Body-Container***/
 .box-margin {
     margin-top: 35px;
@@ -32,6 +33,7 @@
 }
 .icon{
     width: 30%;
+    margin-top:15px;
 }
 .climb-no-padding{
     padding-top: 25px;
@@ -51,7 +53,12 @@
 hr{
     width:95%
 }
-
+.white {
+    margin-top: 20px;
+    margin-bottom:20px;
+    border: 3px solid powderblue;
+    border-radius: 15px;  
+}
 /*** Background Image***/
 body, html {
     height: 100%;
@@ -79,7 +86,7 @@ body, html {
   width: 100%;
   z-index: 0;
 }
-
+   
 /**************************************MEDIA (SCREEN SIZE)**************************************/
 /*** Text-Size Responsive ***/
 html {
@@ -107,8 +114,8 @@ html {
         display: block;
     }
     .white {
-        margin-top:15px;
-        margin-bottom:15px;
+        margin-top:25px;
+        margin-bottom:25px;
     }
     #bakingbanner{
         height: 510px;
@@ -148,11 +155,6 @@ html {
     .white {
         margin-top:25px;
         margin-bottom:25px;
-    }
-    .vertical {
-        display: inline-block;
-        vertical-align: middle;
-        float: none;
     }
 }
  
