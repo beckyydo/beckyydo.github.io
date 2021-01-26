@@ -25,6 +25,9 @@
     margin-top: auto;
     margin-bottom: auto;
 }
+.small-icon{
+    width:55%;
+}
 
 /***Body-Container***/
 .box-margin {
@@ -104,6 +107,9 @@ html {
     .background-blue {
         padding: 100px;
     }
+    .small-icon{
+        width:70%;
+    }
 }
 /*** Reciepe Carousel ***/
 @media (max-width: 768px) {
@@ -132,6 +138,9 @@ html {
         width:290px;
         margin-top: 25px;
         margin-bottom: 50px;
+    }
+    .small-icon{
+        width:90%;
     }
 
 }
