@@ -120,14 +120,18 @@ html {
         border-radius: 15px;  
     }
     #bakingbanner{
-        height: 510px;
+        height: 480px;
         margin-top: 110px;
     }
     #baking-square1{
-        width:350px;
+        margin-top:50px;
+        margin-bottom:25px;
+        width:300px;
     }
     #baking-square2{
-        width:340px;
+        width:290px;
+        margin-top: 25px;
+        margin-bottom: 50px;
     }
 
 }
@@ -164,6 +168,10 @@ html {
     .white {
         margin-top:25px;
         margin-bottom:25px;
+    }
+    #bakingbanner {
+        height: 440px;
+        margin-top: 110px;
     }
 }
  
