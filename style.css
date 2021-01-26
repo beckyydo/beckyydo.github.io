@@ -83,6 +83,9 @@ body, html {
     padding-top: 1px;
     padding-bottom: 1px;
 }
+.baking-footer{
+    border-top: 1px solid black;
+}
 
 .banner-bg
 {
