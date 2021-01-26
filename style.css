@@ -89,7 +89,16 @@ body, html {
   width: 100%;
   z-index: 0;
 }
-   
+.pic-change2{
+    display: none;
+}
+.pic-change3{
+    display: none;
+}
+.pic-change4{
+    display: none;
+}
+
 /**************************************MEDIA (SCREEN SIZE)**************************************/
 /*** Text-Size Responsive ***/
 html {
@@ -100,6 +109,7 @@ html {
         padding: 80px;
     }
 }
+
 @media (max-width: 990px) {
     html {
           font-size: 15px;
@@ -110,7 +120,20 @@ html {
     .small-icon{
         width:70%;
     }
+    .pic-change1{
+        display: none;
+    }
+    .pic-change2{
+        display: block;
+    }
+    .pic-change3{
+        display: none;
+    }
+    .pic-change4{
+        display: none;
+    }
 }
+
 /*** Reciepe Carousel ***/
 @media (max-width: 768px) {
     .carousel-inner .carousel-item > div {
@@ -140,9 +163,20 @@ html {
         margin-bottom: 50px;
     }
     .small-icon{
-        width:90%;
+        width:100%;
     }
-
+    .pic-change1{
+        display: none;
+    }
+    .pic-change2{
+        display: none;
+    }
+    .pic-change3{
+        display: block;
+    }
+    .pic-change4{
+        display: none;
+    }
 }
 .carousel-inner .carousel-item.active,
 .carousel-inner .carousel-item-next,
@@ -151,7 +185,7 @@ html {
 }
 /* Advance 1 Slide At A Time */
 @media (min-width: 768px) {
-    
+    /* Advance 1 Slide At A Time */
     .carousel-inner .carousel-item-right.active,
     .carousel-inner .carousel-item-next {
       transform: translateX(33.333%);
@@ -181,6 +215,18 @@ html {
     #bakingbanner {
         height: 440px;
         margin-top: 110px;
+    }
+    .pic-change1{
+        display: none;
+    }
+    .pic-change2{
+        display: none;
+    }
+    .pic-change3{
+        display: none;
+    }
+    .pic-change4{
+        display: block;
     }
 }
  
