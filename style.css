@@ -85,10 +85,14 @@ body, html {
 
 /*** Baking Gallery ***/
 .gallery-img{
-    min-height: 500px;
-    max-height:500px;
+    padding-bottom: 30px;
 }
-
+@media (min-width:1200px){
+#baking-square2{
+    height: 365px;
+    margin-top:10px;
+    }
+}
 /*** Footer ***/
 .footer-bar{
     background-color: powderblue;
