@@ -83,6 +83,12 @@ body, html {
     background-size: cover;
   }
 
+/*** Baking Gallery ***/
+.gallery-img{
+    min-height: 500px;
+    max-height:500px;
+}
+
 /*** Footer ***/
 .footer-bar{
     background-color: powderblue;
