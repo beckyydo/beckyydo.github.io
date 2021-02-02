@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/5.0.0/math.min.js"></script>
+      </head>
+
+<body style="background-color: white;">
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-md border-bottom border-dark">
+        <a href="index.html"><img src="images/gold-house-icon.png" class = "home-icon" alt= "main-page icon"></a>
+        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--ml puts button on the right, mr puts on the left-->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-dark" href="aboutme.html">About Me</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-dark" href="work.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Work
+                        </a>
+                        <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item " href="resume.html">Resume</a>
+                            <a class="dropdown-item" href="work.html">Projects</a>
+                        </div>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-dark" href="baking.html">Baking</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link text-dark" href="climbing.html">Climbing</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Baking Banner-->
+    <div class = "container">
+        <div class = "row" style ="align-items:center;">
+            <div class="col-md-3 order-2 order-md-1">
+                <a href="gallery.html"><img src ="images/Baking/Banner/Final-Gallery1.PNG" style = "text-align:center;" id="baking-square1" class="img-fluid mx-auto d-block" ></a>
+            </div>
+            <div class="col-md-6 order-1 order-md-2">
+               <img src ="images/Baking/Banner/BakingIcon.PNG" style = "text-align:center;" id="bakingbanner" class="img-fluid mx-auto d-block">
+            </div>
+            <div class="col-md-3 order-3 order-md-3">
+                <a href="recipe.html"><img src ="images/Baking/Banner/Final-Recipe1.PNG" style = "text-align:center;" id="baking-square2" class="img-fluid mx-auto d-block" ></a>
+            </div>
+        </div>
+    </div>
+    <!--Recipe Carousel-->
+    <!--<div class="container text-center my-3 bg">-->
+    <div class="container text-center my-3">
+        <!--Featured Banner-->
+        <div class = row>
+            <div class = "col-md-3"></div>
+            <div class = "col-md-6">
+                <img src = "images/Baking/Banner/Featured.PNG" style = "width:50%"><br><br>
+            </div>
+            <div class = "col-md-3"></div>
+        </div>
+    </div>
+        <!--Featured Recipe Gallery-->
+    <div class="container text-center my-3">
+    <h2 class="font-weight-light">Bootstrap 4 - Multi Item Carousel</h2>
+    <div class="row mx-auto my-auto">
+        <div id="recipeCarousel" class="carousel slide w-100">
+            <div class="carousel-inner w-100" role="listbox">
+                <div class="carousel-item active">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img class="img-fluid" src="http://placehold.it/380?text=1">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img class="img-fluid" src="http://placehold.it/380?text=2">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img class="img-fluid" src="http://placehold.it/380?text=3">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img class="img-fluid" src="http://placehold.it/380?text=4">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img class="img-fluid" src="http://placehold.it/380?text=5">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-4">
+                        <div class="card card-body">
+                            <img class="img-fluid" src="http://placehold.it/380?text=6">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <h5 class="mt-2">Advances one slide at a time</h5>
+    </div>
+
+    <script src ="baking.js"></script>
+</body>
+
+<footer class = "baking-footer" style = "background-color: white; padding: 20px;">
+    <span class="align-middle">
+        <div class="d-flex">
+            <div>
+                <a class='text-dark' href="acknowledgement.html">Acknowledgements</a>
+            </div>
+            <div class="ml-auto">
+                <a class="pull-left" href = "#">Back to top</a>
+            </div>
+       </div>
+    </span>
+</footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+</html>
