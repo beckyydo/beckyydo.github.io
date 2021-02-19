@@ -35,6 +35,49 @@
     width:55%;
 }
 
+/**Side Navigation**/
+#mySidenav a {
+    margin-top: 60px;
+    position: absolute;
+    display: block;
+    left: -100px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 160px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+  
+  #mySidenav a:hover {
+    left: 0;
+  }
+  
+  #side-home {
+    top: 20px;
+    background-color: powderblue;
+  }
+  
+  #side-about {
+    top: 78px;
+    background-color: #53BED7;
+ }
+  
+  #side-work {
+    top: 140px;
+    background-color: #46A0B5;
+  }
+  
+  #side-baking {
+    top: 204px;
+    background-color: powderblue;
+  }
+  #side-climb {
+    top: 266px;
+    background-color: #53BED7;
+  }
+
 /***Body-Container***/
 .box-margin {
     margin-top: 35px;
