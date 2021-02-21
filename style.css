@@ -1,4 +1,7 @@
 /*** Navigation Bar ***/
+html{
+    scroll-behavior: smooth;
+}
 .nav-background {
     background-color: powderblue;
 }
@@ -38,7 +41,8 @@
 /**Side Navigation**/
 #mySidenav a {
     margin-top: 100px;
-    position: absolute;
+    position: fixed;
+    z-index: 100;
     display: block;
     left: -100px;
     transition: 0.3s;
