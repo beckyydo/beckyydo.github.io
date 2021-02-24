@@ -4,6 +4,8 @@ html{
 }
 .nav-background {
     background-color: powderblue;
+    position: static;
+    z-index:200;
 }
 .navbar-brand{
     padding: 5px;
