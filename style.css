@@ -7,6 +7,11 @@ html{
     position: static;
     z-index:200;
 }
+.work-nav-background{
+    background-color: #3960FB;
+    position: static;
+    z-index:200;    
+}
 .navbar-brand{
     padding: 5px;
     color: powderblue;
