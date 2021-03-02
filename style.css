@@ -45,6 +45,23 @@ html{
     width:55%;
 }
 
+/*** Work ***/
+.work-button{
+    border-radius:10px;
+    padding:5px;
+    background-color:#3960FB;
+    height:40px; 
+    width:110px;
+    color:white;
+    font-size:18px;
+}
+.vl{
+    border-left: 3px solid #333333;
+    height: 40px;
+    position: absolute;
+    top: 0;
+}
+
 /**Side Navigation**/
 #mySidenav a {
     margin-top: 100px;
