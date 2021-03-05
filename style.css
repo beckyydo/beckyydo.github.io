@@ -45,6 +45,13 @@ html{
     width:55%;
 }
 
+.project-box{
+    background:rgba(255,255,255,.2) !important;
+    color:white;
+    border-color:#3960FB !important;
+    border-width:7px !important;
+}
+
 /*** Work ***/
 .work-button{
     border-radius:10px;
