@@ -26,8 +26,10 @@ html{
 
 /*** Body ***/
 .text-margin{
-    margin-left:18px;
-    margin-right:18px;
+    margin-left:5px;
+    padding-left:45px;
+    margin-right:20px;
+    padding-right:45px;
     margin-top:10px;
     margin-bottom:22px;
 }
