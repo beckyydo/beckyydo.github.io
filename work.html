@@ -44,16 +44,37 @@
             </ul>
         </div>
     </nav>
-    <div class = "container-fluid cont-align" style="padding:30px;">
-        <div>
-            <a href="#"><img src="images/Icon/CodeIcon_1.png" alt = "Code Icon" style = "width: 10%"></a>
-            <h2>Projects</h2>
+
+    <div class = "container-fluid" style="padding:30px;">
+        <div class="code-typing" style="color:#3960FB;font-family:Comic Sans MS, Comic Sans, cursive;font-size: 20px;font-weight: bold;">
+            <p>> def scrape(): <br>
+                executable_path = {'executable_path': 'chromedriver',}<br>
+                browser = Browser('chrome', **executable_path, headless=False) <br>
+                # NASA Mars News<br>
+                url = "https://mars.nasa.gov/news"<br>
+                browser.visit(url)<br>
+                # Give time to browser to load<br>
+                time.sleep(3)<br>
+                # Get html of browser<br>
+                html = browser.html<br>
+                # Parse html<br>
+                soup = bs(html, 'html.parser')<br>
+                # Get "div" tag class "content_page"<br>
+                content = soup.find("div", class_="content_page")<br>
+                # Get latest news title and paragraph<br>
+                title = content.find_all("div", class_= "content_title")<br>
+                news_title = title[0].text.strip()<br>
+                # Get latest paragraph<br>
+                news_p = content.find("div", class_= 'article_teaser_body').text.strip()<br>
+            </p>
         </div> 
         <div class = "row">
             <div id = "work-filter" >
                 <br>
             </div>
         </div>
+    </div>
+    <div class = "container-fluid cont-align" style="padding:30px;">    
         <div class="row">
             <div class="col-md-6" style="padding:2px;">
                 <div class ="col-md-12 card project-box">
@@ -102,7 +123,7 @@
             
             <div class = "col-md-6" style="padding:2px;">
                 <div class = "col-md-12 card project-box">
-                    <div class = "row">
+                    <div class = "row" style="background-color: white;" >
                         <div class = "col-md-6" style="padding:0px">
                             <img src ="work/images/Equator.PNG" style="padding:3px;" class="img-fluid">
                         </div>
