@@ -29,6 +29,8 @@ access to the github with the code and the option to deploy the project page in 
 
 ## Baking
 This section will feature a gallery on the various desserts I've baked and also the reciepes used to create them.
+![Home Desktop Layout](images/Repo/Screenshot_2.PNG)
+![Home Desktop Layout](images/Repo/Screenshot_3.PNG)
 
 ## Climbing
 This section will include a gallery on my climbing trip and also provide details on my experiences with a new interesting climb and the things I have learned.
