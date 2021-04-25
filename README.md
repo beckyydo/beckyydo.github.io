@@ -2,9 +2,11 @@
 Deploy Page: https://beckyydo.github.io/
 
 Website to showcase projects I've completed while also providing further information about myself both professionally and personally.
+
 Tools: HTML, CSS
 
 Images were retrieved from open source websites and redesigned using various online tools below.
+
 Tools: LunaPic, Fotor, Flaticon, Freepik
 
 ![Home Desktop Layout](images/Repo/Screenshot_1.PNG)
