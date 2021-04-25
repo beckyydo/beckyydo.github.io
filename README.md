@@ -7,6 +7,8 @@ Tools: HTML, CSS
 Images were retrieved from open source websites and redesigned using various online tools below.
 Tools: LunaPic, Fotor, Flaticon, Freepik
 
+![Home Desktop Layout](images/Repo/Screenshot_1.PNG)
+
 ## Home 
 The idea behind the home page was to able to give a brief summary to the sections of the website and give some insights to who am I.
 The design of the homepage was to have a checkerboard layout and then have the mobile layout convert the checkerboard to a vertical layout.
