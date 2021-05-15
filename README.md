@@ -15,7 +15,7 @@ Tools: LunaPic, Fotor, Flaticon, Freepik
 The idea behind the home page was to able to give a brief summary to the sections of the website and give some insights to who am I.
 The design of the homepage was to have a checkerboard layout and then have the mobile layout convert the checkerboard to a vertical layout.
 
-![Design Layout](images/)
+![Design Layout](images/Design-Layout.png)
 
 ## About Me
 About section will provide some information to provide a better understand of me. It will also describe my education and also my technical skills. This section will
