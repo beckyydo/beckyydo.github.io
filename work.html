@@ -47,7 +47,7 @@
 
     <div class = "container-fluid" style="padding:30px;">
         <div class="code-typing" style="color:#3960FB;font-family:Comic Sans MS, Comic Sans, cursive;font-size: 20px;font-weight: bold;">
-            <p>> def scrape(): <br>
+            <!--<p>> def scrape(): <br>
                 executable_path = {'executable_path': 'chromedriver',}<br>
                 browser = Browser('chrome', **executable_path, headless=False) <br>
                 # NASA Mars News<br>
@@ -66,7 +66,8 @@
                 news_title = title[0].text.strip()<br>
                 # Get latest paragraph<br>
                 news_p = content.find("div", class_= 'article_teaser_body').text.strip()<br>
-            </p>
+            </p>-->
+            <img src="images/Icon/project_icon.png" style="width:50%;">
         </div> 
         <div class = "row">
             <div id = "work-filter" >
@@ -75,6 +76,107 @@
         </div>
     </div>
     <div class = "container-fluid cont-align" style="padding:30px;">    
+        <!--ROW 1-->
+        <div class="row">
+            <div class="col-md-6" style="padding:2px;">
+                <div class ="col-md-12 card project-box">
+                    <div class = "row" style="background-color: white;" >
+                        <div class = "col-md-6" style="padding:0px;">
+                            <img src ="work/images/Citi_PowerBI_1.PNG" style="padding:3px;" class="img-fluid">
+                        </div>
+                        <div class = "col-md-6" style="padding:0px;">
+                            <a href="#"><img src ="work/images/Citi_PowerBI_2.PNG" style="padding:5px;" class="img-fluid"></a>
+                        </div>
+                    </div>
+                    <div class = "card-body">
+                        <h2>Grocery Dash and Recommendation</h2>
+                        <h6>Languages: Python, Javascript, HTML</h6>
+                        <h6>Database: PostgresSQL</h6>
+                        <h6>Other Tools: Facebook Prophet</h6>
+                        <p>
+                            Dashboard contains interactive visualizations of company's current state built using Javascript. 
+                            In addition the sales and stock forecast was generated using Facebook Prophet help predict future sales and stock value. 
+                            A grocery recommendation system was created to help with the user experience. Using k-mean clustering and 
+                            the Surprise alogorithm, when the user logins the code will make 3 recommendations based on the customer's past orders and suggest 3 
+                            products they may also like.
+                        </p>
+                        <div class = "row">
+                            <div class = "col-xl-3 col-lg-2 col-1"></div>
+                            <div class="col-xl-3 col-lg-4 col-5 d-flex justify-content-center">
+                                <a href="https://comp-dashboard.herokuapp.com/" target="_blank" title="Click to Deploy Page" style="text-decoration:none;">
+                                    <div class="work-button">
+                                        <img src="images/Icon/Work-Play.png" style="width:25px;"> 
+                                        <span class="vl"></span>
+                                        <span style="margin-left:9px;">Deploy</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-5 d-flex justify-content-center" style="text-align:center;">
+                                <a href="https://github.com/beckyydo/walmart-dashboard" target="_blank" title="Click to View Github Page" style="text-decoration:none;">
+                                    <div class="work-button">
+                                        <img src="images/Icon/Work-Github.png" style="width:25px;">
+                                        <span class="vl"></span>
+                                        <span style="margin-left:9px;">Github</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class = "col-xl-3 col-lg-2 col-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class = "col-md-6" style="padding:2px;">
+                <div class = "col-md-12 card project-box">
+                    <div class = "row" style="background-color: white;" >
+                        <div class = "row" style="background-color: white;" >
+                            <div class = "col-md-6" style="padding:0px;">
+                                <img src ="work/images/Citi_PowerBI_1.PNG" style="padding:3px;" class="img-fluid">
+                            </div>
+                            <div class = "col-md-6" style="padding:0px;">
+                                <a href="#"><img src ="work/images/Citi_PowerBI_2.PNG" style="padding:5px;" class="img-fluid"></a>
+                            </div>
+                        </div>
+                    <div class = "card-body">
+                        <h2>Citi Bike Dashboard</h2>
+                        <h6>Languages: Python</h6>
+                        <h6>Database: PostgresSQL</h6>
+                        <h6>Other Tools: Power BI</h6>
+                        <p>
+                            Monthly data from Citi Bike was merged using Python. Two reports were created using Power BI. One report mapped start 
+                            and end station demonstrating popularity in stations. In addition it included a heat map of hourly days in time versus 
+                            day of the week to demonstrate peak hours of business. The second report was built by creating new tables in Power BI to 
+                            retrieve the last time and location of the bike in order to exhibit the ability to build a real-time dashboard of 
+                            current bike location and how many bikes are in each stations presently. This can help with supply chain as you can view 
+                            if there are any uneven inventory distributions.
+                        </p>
+                        <div class = "row">
+                            <div class = "col-xl-3 col-lg-2 col-1"></div>
+                            <div class="col-xl-3 col-lg-4 col-5 d-flex justify-content-center">
+                                <a href="https://comp-dashboard.herokuapp.com/" target="_blank" title="Click to Deploy Page" style="text-decoration:none;">
+                                    <div class="work-button">
+                                        <img src="images/Icon/Work-Play.png" style="width:25px;"> 
+                                        <span class="vl"></span>
+                                        <span style="margin-left:9px;">Deploy</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xl-3 col-lg-4 col-5 d-flex justify-content-center">
+                                <a href="https://github.com/beckyydo/walmart-dashboard" target="_blank" title="Click to View Github Page" style="text-decoration:none;">
+                                    <div class="work-button">
+                                        <img src="images/Icon/Work-Github.png" style="width:25px;">
+                                        <span class="vl"></span>
+                                        <span style="margin-left:9px;">Github</span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class = "col-xl-3 col-lg-2 col-1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+       <!--ROW 2-->
         <div class="row">
             <div class="col-md-6" style="padding:2px;">
                 <div class ="col-md-12 card project-box">
